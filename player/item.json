@@ -1,0 +1,48 @@
+[
+        {
+            "Name": "Excaliber",
+            "ID": "SWORD_1",
+            "IMG": "Cally.png",
+            "colour": "255, 0, 0",
+            "height": "10",
+            "width": "10",
+            "position":{
+                "x": "100",
+                "y": "100"
+            },          
+            "description" : "Press R for melee attack and T for magic attack.",
+            "uses": {
+                "melee" : {
+                    "description": "Sword Slash",
+                    "reach": "25",
+                    "damage": "100"
+                }, 
+                "magic" : {
+                    "description": "killing wave",
+                    "reach": "250",
+                    "damage": "10"
+                },
+                "useless" : {
+                    "keycode": "86",
+                    "description": "You pick your teeth with Excaliber, really?",
+                    "reach": "0",
+                    "damage": "0"
+                    
+                }
+            } 
+        },
+        {
+            "Name": "Author",
+            "ID": "2",
+            "Damage": "20",
+            "IMG": "Cally.png",
+            "colour": "0, 255, 0",
+            "height": "10",
+            "width": "10",
+            "position":{
+                "x": "200",
+                "y": "100"
+            }
+        }
+
+    ]
